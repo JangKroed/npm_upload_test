@@ -6,10 +6,11 @@ excel-validator is a Node.js library for processing Excel files and validating t
 
 ```bash
 npm install excel-validator
-
-##Usage
-
 ```
+
+## Usage
+
+```javascript
 
 const { processExcel } = require('excel-validator');
 const schema = require('./schema.json');
@@ -21,7 +22,8 @@ console.log(result);
 
 ```
 
-##Schema Definition
+## Schema Definition
+```json
 {
   "name": {
     "type": "string",
@@ -38,7 +40,9 @@ console.log(result);
     "required": true
   }
 }
+```
 
-##License
+## License
+```
 This project is licensed under the MIT License - see the LICENSE file for details.
 ```
