@@ -1,6 +1,6 @@
 {
   "name": "excel-validator-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "excel-validator is a Node.js library for processing Excel files and validating their contents based on a provided schema.",
   "main": "index.js",
   "scripts": {
