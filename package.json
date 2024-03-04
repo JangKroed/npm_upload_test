@@ -1,6 +1,6 @@
 {
-  "name": "excel-validator",
-  "version": "1.0.1",
+  "name": "excel-validator-js",
+  "version": "1.0.5",
   "description": "excel-validator is a Node.js library for processing Excel files and validating their contents based on a provided schema.",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "JangKroed <didlsdydgh@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "excel_validator": "^1.0.1",
     "joi": "^17.12.2",
     "multer": "^1.4.5-lts.1",
     "xlsx": "^0.18.5"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/JangKroed/npm_upload_test.git"
